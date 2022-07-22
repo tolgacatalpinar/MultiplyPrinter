@@ -9,9 +9,9 @@ public class MultiplyPrinter{
         for(int i = lowerIndex; i < upperIndex + 1; i++){
             if(i % firstMultipleValue == 0 && i % secondMultipleValue == 0)//check the number can multiply with firstMultipleValue and secondMultipleValue
                 System.out.println(firstMultipleName + secondMultipleName);
-            else if(i % firstMultipleValue == 0)//check the number can multiply with firstMultipleValue
+            else if(i % firstMultipleValue == 0)//check if the number can multiply with firstMultipleValue
                 System.out.println(firstMultipleName);
-            else if(i % secondMultipleValue == 0)//check the number can multiply with secondMultipleValue
+            else if(i % secondMultipleValue == 0)//check if the number can multiply with secondMultipleValue
                 System.out.println(secondMultipleName);
             else
                 System.out.println(i);
