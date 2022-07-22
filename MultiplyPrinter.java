@@ -7,7 +7,7 @@ public class MultiplyPrinter{
         int firstMultipleValue = 3, secondMultipleValue = 5;
         String firstMultipleName = "Fizz", secondMultipleName = "Buzz";
         for(int i = lowerIndex; i < upperIndex + 1; i++){
-            if(i % firstMultipleValue == 0 && i % secondMultipleValue == 0)//check the number can multiply with firstMultipleValue and secondMultipleValue
+            if(i % firstMultipleValue == 0 && i % secondMultipleValue == 0)//check if the number can multiply with firstMultipleValue and secondMultipleValue
                 System.out.println(firstMultipleName + secondMultipleName);
             else if(i % firstMultipleValue == 0)//check if the number can multiply with firstMultipleValue
                 System.out.println(firstMultipleName);
